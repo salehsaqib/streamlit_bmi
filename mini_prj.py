@@ -15,7 +15,7 @@ st.set_page_config(
 
 
 # give a title to our app
-st.title('Welcome to BMI Calculator')
+st.title('BMI Calculator (By M. Saleh Saqib)')
 
 # TAKE WEIGHT INPUT in kgs
 weight = st.number_input("Enter your weight (in kgs)")
