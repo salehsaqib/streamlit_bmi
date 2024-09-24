@@ -1,6 +1,19 @@
 # import the streamlit library
 import streamlit as st
 
+st.set_page_config(
+    page_title="Ex-stream-ly Cool App",
+    page_icon="🧊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'https://www.salehsaqib.com',
+        'Report a bug': "https://www.salehsaqib.com",
+        'About': "# BMI Calculator Version 1.0 *salehsaqib.com*"
+    }
+)
+
+
 # give a title to our app
 st.title('Welcome to BMI Calculator')
 
